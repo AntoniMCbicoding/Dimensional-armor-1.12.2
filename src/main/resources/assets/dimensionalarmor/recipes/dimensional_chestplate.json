@@ -1,0 +1,45 @@
+{
+  "type": "forge:ore_shaped",
+
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "avaritia"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "customblight"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ee"
+    }
+  ],
+
+  "pattern": [
+    "S S",
+    "IPI",
+    "III"
+  ],
+
+  "key": {
+
+    "S": {
+      "item": "customblight:blight_core"
+    },
+
+    "I": {
+      "item": "avaritia:resource",
+      "data": 1
+    },
+
+    "P": {
+      "item": "ee:endfall_chestplate"
+    }
+  },
+
+  "result": {
+    "item": "dimensionalarmor:dimensional_chestplate",
+    "count": 1
+  }
+}

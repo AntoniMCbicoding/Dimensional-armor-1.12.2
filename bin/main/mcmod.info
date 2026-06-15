@@ -1,0 +1,12 @@
+[
+    {
+        "modid": "dimensionalarmor",
+        "name": "Dimensional Armor 1.12.2",
+        "description": "Custom dimensional armor with Avaritia integration.",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "authorList": ["AntoniTMC"],
+        "dependencies": ["avaritia", "customblight", "ee"]
+    }
+]

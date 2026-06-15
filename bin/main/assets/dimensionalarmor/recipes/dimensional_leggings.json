@@ -1,0 +1,38 @@
+{
+    "type": "forge:ore_shaped",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "avaritia"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "customblight"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ee"
+        }
+    ],
+    "pattern": [
+        "SIS",
+        "IPI",
+        "I I"
+    ],
+    "key": {
+        "S": {
+            "item": "customblight:blight_core"
+        },
+        "I": {
+            "item": "avaritia:resource",
+            "data": 1
+        },
+        "P": {
+            "item": "ee:endfall_leggings"
+        }
+    },
+    "result": {
+        "item": "dimensionalarmor:dimensional_leggings",
+        "count": 1
+    }
+}
